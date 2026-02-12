@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<!-- PHONE-LIKE CONTAINER -->
+<div class="phone" id="app">
+
+    <div class="header">
+        <h2>Weather App ⛅</h2>
+        <p id="dateTime"></p>
+    </div>
+
+    <div class="search">
+        <input id="cityInput" placeholder="Search city..." />
+        <button id="searchBtn">🔍</button>
+    </div>
+
+    <button id="locationBtn" class="location-btn">📍 Use My Location</button>
+
+    <!-- MAIN WEATHER CARD -->
+    <div class="main-card">
+
+        <div class="top">
+            <h3 id="cityName">City</h3>
+            <img id="weatherIcon" />
+        </div>
+
+        <h1 id="temperature" class="temp">--°</h1>
+        <p id="description" class="desc">--</p>
+
+<div class="stats">
+    <div>
+        <span id="humidity">--</span>
+        <small>Humidity</small>
+    </div>
+
+    <div>
+        <span id="wind">--</span>
+        <small>Wind</small>
+    </div>
+
+    <div>
+        <span id="feelsLike">--</span>
+        <small>Feels</small>
+    </div>
+</div>
+
+<!-- sunrise sunset row -->
+<div class="sun-row">
+    <small id="sunrise">🌅 --</small>
+    <small id="sunset">🌇 --</small>
+</div>
+
+    <!-- SPINNER -->
+    <div class="spinner" id="spinner"></div>
+
+    <!-- FORECAST -->
+    <div id="forecast" class="forecast"></div>
+
+    <!-- DARK MODE -->
+    <p id="toggleTheme" class="toggle">🌙 Toggle Theme</p>
+
+    <p id="message" class="message"></p>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

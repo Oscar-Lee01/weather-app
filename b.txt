@@ -1,0 +1,13 @@
+git init
+git add .
+git commit -m "Weather App"
+git branch -M main
+git remote add origin YOUR_REPO_URL
+git push -u origin main
+
+https://yourname.github.io/weather-app/
+
+
+git branch -M main
+git remote add origin https://github.com/Oscar-Lee01/weather-app.git
+git push -u origin main
